@@ -17,10 +17,16 @@ This project provides a simple weather service API that allows users to retrieve
     ```
 3. Start the server:
    ```bash
+    npm run dev
+    ```
+
+4. Alternatively, you can build and run the production version:
+   ```bash
+    npm run build
     npm start
     ```
    The server will run on `http://localhost:3000`.
-4. Make a request to the weather endpoint:
+5. Make a request to the weather endpoint:
     ```bash
      curl "http://localhost:3000/weather?lat=39.7456&lon=-97.0892"
      ```
