@@ -32,15 +32,9 @@ This project provides a simple weather service API that allows users to retrieve
 ### Example Response
 ```json
 {
-  "location": "Some Location",
-  "temperature": "72°F",
-  "humidity": "50%",
-  "condition": "Partly Cloudy"
+    "temperatureDescriptor": "Cold",
+    "temperature": "23°F",
+    "wind": "5 mph from SW",
+    "shortForecast": "Partly Cloudy"
 }
 ```
-
-### Dependencies
-- express
-- typescript
-- axios
-- node v22 or higher
